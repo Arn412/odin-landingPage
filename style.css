@@ -107,3 +107,33 @@ a {
     font-style: italic;
     color: #1f2937;
 }
+
+.signup {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container {
+    display: flex;
+    width: 600px;
+    background-color: rgb(105, 105, 239);
+    padding: 60px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.sign-up-button {
+    width: 88px;
+    height: 35px;
+    padding: 6px;
+    flex-shrink: 0;
+    font-weight: 600;
+    background-color: rgb(105, 105, 239);
+    color: white;
+    border-radius: 10px;
+    margin-left: 32px;
+    border-color: #F9FAF8;
+    border: solid;
+
+}
