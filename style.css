@@ -12,7 +12,7 @@ header {
     background-color: #1f2937;
     color: white;
     display: flex;
-    padding: 12px;
+    padding: 32px;
     justify-content: space-between;
     align-items: center;
 }
@@ -32,4 +32,78 @@ a {
 .header-logo {
     font-size: 24px;
     font-weight: bold;
+    padding-left: 10px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    padding-left: 33px;
+    font-weight: 900;
+}
+
+.introduction {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    padding: 33px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.subtext {
+    color: #f9faf8a8;
+    padding-left: 33px;
+    padding-right: 64px;
+}
+
+.placeholder {
+    height: 200px;
+}
+
+.sign-up {
+    width: 88px;
+    height: 40px;
+    padding: 10px;
+    flex-shrink: 0;
+    font-weight: 600;
+    background-color: rgb(105, 105, 239);
+    color: white;
+    border-radius: 10px;
+    margin-left: 32px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-bottom: 44px;
+}
+
+.card-text {
+    max-width: 200px;
+}
+
+.card-header {
+
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 34px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
 }
